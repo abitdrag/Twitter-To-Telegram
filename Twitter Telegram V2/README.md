@@ -25,11 +25,14 @@ The API limit is 900 requests per 15 minutes. This application has 2 seconds sle
 # Run   
 If you are running from local computer, then keep a separate terminal or CMD and run in that.   
 If you are running on a remote server without GUI then run it as a daemon or process.   
-For linux servers, screen can be used.  
+For linux servers, screen can be used as:
+
 Create a screen as: 
 `screen -S twitter2telegram`   
+
 Run script in screen: 
-`python3 twitterforwarder.py`   
+`python3 twitterforwarder.py`    
 Press CTRL+A+D to detach the screen and it will keep running :)   
+
 Reattach by: `screen -r twitter2telegram`
 
